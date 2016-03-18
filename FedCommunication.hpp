@@ -16,17 +16,17 @@ using namespace mesos;
 using mesos::modules::Anonymous;
 
 
-class FedCommunicate : public Anonymous
+class FedCommunication : public Anonymous
 {
 public:
-   FedCommunicate()
+   FedCommunication()
    {
-    	std::cout << "   :::::: HUAWEI - Test Communication (Anonymou)s MODULE: Constructor" << std::endl;
+    	std::cout << "   :::::: HUAWEI - Test Communication (Anonymous) MODULE: Constructor" << std::endl;
    }
 
-   virtual ~FedCommunicate()
+   virtual ~FedCommunication()
    {
-    	std::cout << "   :::::: HUAWEI - Test Communication (Anonymou)s MODULE: Destructor" << std::endl;
+    	std::cout << "   :::::: HUAWEI - Test Communication (Anonymous) MODULE: Destructor" << std::endl;
    }
 
 };
