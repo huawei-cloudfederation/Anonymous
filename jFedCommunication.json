@@ -1,0 +1,12 @@
+{
+   "libraries": [
+     {
+       "file": "./libFedCommunicationModule.so",
+       "modules": [ 
+         {
+           "name": "mesos_federation_communication"
+         }
+       ]
+     }
+   ]
+ }
