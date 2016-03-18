@@ -3,7 +3,7 @@
 
 static Anonymous* createCommunication(const Parameters& parameters)
 {
-  auto obj = new Communicate();
+  auto obj = new FedCommunication();
 
   return obj;
 }
