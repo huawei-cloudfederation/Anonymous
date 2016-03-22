@@ -1,10 +1,10 @@
 {
    "libraries": [
      {
-       "file": "./libFedCommunicationModule.so",
+       "file": "./libFedComModule.so",
        "modules": [ 
          {
-           "name": "mesos_federation_communication"
+           "name": "mesos_fedCom"
          }
        ]
      }
