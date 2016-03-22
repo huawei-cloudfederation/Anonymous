@@ -10,7 +10,7 @@ static Anonymous* createCommunication(const Parameters& parameters)
 
 
 // Declares an Anonymous module named 'org_apache_mesos_TestAnonymous'.
-mesos::modules::Module<Anonymous> mesos_federation_communication (
+mesos::modules::Module<Anonymous> mesos_fedCom (
   MESOS_MODULE_API_VERSION,
   MESOS_VERSION,
   "Huawei Mesos Federation",
