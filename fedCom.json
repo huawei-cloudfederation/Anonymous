@@ -1,7 +1,7 @@
 {
    "libraries": [
      {
-       "file": "./libFedComModule.so",
+       "file": "../../FedModules/FedCom/libFedComModule.so",
        "modules": [ 
          {
            "name": "mesos_fedCom"
